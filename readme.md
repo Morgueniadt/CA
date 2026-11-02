@@ -34,7 +34,7 @@
 
 ---
 
-## 💻 Microcontroller Selection Rationale
+##  Microcontroller Selection Rationale
 
 This system uses a **Native USB (HID) approach** (Arduino Leonardo). 
 
@@ -43,7 +43,7 @@ This system uses a **Native USB (HID) approach** (Arduino Leonardo).
 
 ---
 
-## ⚙️ Firmware Setup & Installation
+##  Firmware Setup & Installation
 
 ### Required Libraries
 Ensure the following libraries are installed via the Arduino IDE Library Manager (`Sketch` -> `Include Library` -> `Manage Libraries`):
@@ -62,7 +62,7 @@ Ensure the following libraries are installed via the Arduino IDE Library Manager
 
 ---
 
-## 🎮 Gameplay Controls & Input Mapping
+##  Gameplay Controls & Input Mapping
 
 The controller is mapped out for Standard First-Person / Third-Person PC games (e.g., *DOOM*, *Half-Life*, *FPS micro-games*):
 
@@ -82,7 +82,7 @@ The controller is mapped out for Standard First-Person / Third-Person PC games (
 
 ---
 
-## 💡 Visual Feedback System Operation
+##  Visual Feedback System Operation
 
 * **Visual Status Indicator:** Digital Pin 15 (Onboard LED).
 * **Operation:** Pressing key **`0`** on the matrix keypad toggles the motion-aiming sub-routine on and off.
@@ -92,7 +92,7 @@ The controller is mapped out for Standard First-Person / Third-Person PC games (
 
 ---
 
-## 📦 Zip Structure Verification
+##  Zip Structure Verification
 
 ```
 PHYSICAL_INTERACTION_CA2.zip
